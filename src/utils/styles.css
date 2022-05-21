@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Righteous&display=swap');
+
+:root {
+    --main-bg-color: #303030;
+    --alt-bg-color: #282c34;
+
+    --main-logo-color: white;
+    --main-logo-size: calc(10px + 2vmin);
+
+    --main-text-color: white;
+    --alt-text-color: #e2e2e2;
+}
+
+/* @media (prefers-color-scheme: light) {
+    :root {
+        --main-bg-color: #f1f1f1;
+        --alt-bg-color: #434E64;
+        --main-logo-color: black;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --main-bg-color: #202020;
+        --alt-bg-color: #282c34;
+        --main-logo-color: white;
+    }
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+.ApplicationTitle {
+    font-family: 'Righteous', cursive;
+}

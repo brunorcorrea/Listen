@@ -1,0 +1,13 @@
+.Header {
+    background-color: var(--alt-bg-color);
+    width: calc(100% - 10px);
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: var(--main-logo-size);
+    padding: 5px;
+    color: var(--main-logo-color);
+    margin-bottom: 5px;
+  }

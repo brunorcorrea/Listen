@@ -1,0 +1,12 @@
+.background {
+    border-radius: 10px;
+    width: 75%;
+    height: 1rem;
+    background-color: var(--alt-bg-color);
+}
+
+.foreground {
+    border-radius: 10px;
+    height: 1rem;
+    background-color: var(--main-text-color);
+}
